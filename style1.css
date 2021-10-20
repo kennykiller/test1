@@ -1,0 +1,37 @@
+.logo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(233, 151, 0);
+    position: relative;
+    box-shadow: 1px 3px 5px lightgray;
+    overflow: hidden;
+}
+.logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 50%;
+    bottom: 0;
+    background-color: #fff;
+}
+.logo::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+}
+.second-task {
+    padding: 0.4rem;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 0.5s all ease;
+    font-size: 3rem;
+}
+.second-task:hover {
+    text-decoration-color: blueviolet;
+}
